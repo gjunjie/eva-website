@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eva — Know What You Buy, Treat Smart!</title>
+  <meta name="description" content="Eva is a snack decision assistant. Scan nutrition facts and ingredient lists, get AI-powered personalized health scores instantly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/eva-logo.png">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <img src="images/eva-logo.png" alt="Eva logo" class="nav-logo">
+        <span>Eva</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#personas">Who It's For</a></li>
+        <li><a href="#screenshots">App Preview</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-texture"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <img src="images/eva-logo.png" alt="Eva" class="hero-logo fade-in">
+        <h1 class="fade-in">Know what you buy,<br>treat smart!</h1>
+        <p class="hero-subtitle fade-in">
+          Eva is your snack decision assistant. Scan nutrition facts and ingredient lists — 
+          get a personalized health score, plain-language explanations, and clear 
+          Positive / Negative highlights in seconds.
+        </p>
+        <a href="#how-it-works" class="btn btn-primary fade-in">See How It Works</a>
+      </div>
+      <div class="hero-image fade-in">
+        <img src="images/hero-mockup.png" alt="Eva app showing scan and results screens">
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title fade-in">How It Works</h2>
+      <p class="section-subtitle fade-in">Three steps. Three seconds. One smarter decision.</p>
+      <div class="steps-grid">
+        <div class="step-card fade-in">
+          <div class="step-number">1</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="8" width="40" height="48" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="32" r="4" fill="currentColor"/>
+              <rect x="26" y="10" width="12" height="3" rx="1.5" fill="currentColor" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Snap</h3>
+          <p>Photograph the nutrition facts panel or ingredient list on any food package.</p>
+        </div>
+        <div class="step-connector fade-in">
+          <svg viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 12h36M36 4l8 8-8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="step-card fade-in">
+          <div class="step-number">2</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M32 18v14l10 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="3" fill="currentColor"/>
+              <path d="M20 10l-4-6M44 10l4-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Analyze</h3>
+          <p>AI reads the label with Vision OCR, identifies every ingredient, and translates jargon into plain language.</p>
+        </div>
+        <div class="step-connector fade-in">
+          <svg viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 12h36M36 4l8 8-8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="step-card fade-in">
+          <div class="step-number">3</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8l6 12h14l-11 8 4 14-13-9-13 9 4-14-11-8h14z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+              <circle cx="32" cy="34" r="6" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Decide</h3>
+          <p>Get a personalized 0–100 health score, a one-sentence verdict, and Positive / Negative ingredient highlights.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section features" id="features">
+    <div class="container">
+      <h2 class="section-title fade-in">Powerful Features</h2>
+      <p class="section-subtitle fade-in">Everything you need to make informed food choices.</p>
+      <div class="features-grid">
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 18h24M12 24h18M12 30h22M12 36h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Vision OCR</h3>
+          <p>Apple Vision extracts text from any label — even tiny print, curved surfaces, or cluttered packaging.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 12v12l8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16 8l-2-4M32 8l2-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>AI Ingredient Analysis</h3>
+          <p>Gemini AI identifies each ingredient, classifies its origin, and explains what it actually does in plain language.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 10v14" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <text x="24" y="30" text-anchor="middle" fill="currentColor" font-size="12" font-weight="bold">70</text>
+            </svg>
+          </div>
+          <h3>Health Scoring</h3>
+          <p>A 0–100 score with clear labels: Great Choice, Good Choice, Not Bad, Think Twice, or Avoid.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="12" rx="3" stroke="currentColor" stroke-width="2"/>
+              <rect x="6" y="26" width="36" height="12" rx="3" stroke="currentColor" stroke-width="2"/>
+              <circle cx="14" cy="16" r="3" fill="currentColor" opacity="0.4"/>
+              <circle cx="14" cy="32" r="3" fill="currentColor" opacity="0.4"/>
+              <path d="M20 16h16M20 32h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Ingredient Cards</h3>
+          <p>Each ingredient gets a detailed card: origin, concern level, and what it means for your health.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="6" width="32" height="36" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 14h20M14 20h16M14 26h18M14 32h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+              <path d="M36 30l-6 6-4-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Scan History</h3>
+          <p>Every scan is saved locally. Search past results, track your choices, and see your average health score.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M10 40c0-8 6-14 14-14s14 6 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M30 26l4 2M18 26l-4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Profile Stats</h3>
+          <p>Track total scans, average health score, and build a record of smarter food choices over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personas -->
+  <section class="section personas" id="personas">
+    <div class="container">
+      <h2 class="section-title fade-in">Who Is Eva For?</h2>
+      <p class="section-subtitle fade-in">Whether you're a busy shopper or a health-conscious parent, Eva has you covered.</p>
+      <div class="personas-grid">
+        <div class="persona-card fade-in">
+          <div class="persona-emoji">&#x1F50D;</div>
+          <h3>The Savvy Balancer</h3>
+          <p class="persona-pain">Tired of misleading claims like "non-fried" or "0 sugar"</p>
+          <p class="persona-value">Eva exposes marketing jargon and explains real risks in plain language.</p>
+        </div>
+        <div class="persona-card fade-in">
+          <div class="persona-emoji">&#x26A1;</div>
+          <h3>The Efficiency Seeker</h3>
+          <p class="persona-pain">Needs to decide in 2 minutes at the convenience store</p>
+          <p class="persona-value">Score + one-line conclusion + 3 key points. A 3-second decision.</p>
+        </div>
+        <div class="persona-card fade-in">
+          <div class="persona-emoji">&#x1F6E1;&#xFE0F;</div>
+          <h3>The Restriction Navigator</h3>
+          <p class="persona-pain">Managing allergies, sugar limits, or digestive sensitivities</p>
+          <p class="persona-value">Automatic risk filtering based on your health profile and needs.</p>
+        </div>
+        <div class="persona-card fade-in">
+          <div class="persona-emoji">&#x1F3E0;</div>
+          <h3>The Gatekeeper</h3>
+          <p class="persona-pain">Buying for kids or elders — balancing tasty vs. safe</p>
+          <p class="persona-value">Explainable results you can share with family in simple terms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Screenshots -->
+  <section class="section screenshots" id="screenshots">
+    <div class="container">
+      <h2 class="section-title fade-in">See Eva in Action</h2>
+      <p class="section-subtitle fade-in">A beautiful, intuitive interface designed for speed and clarity.</p>
+      <div class="screenshots-wrapper fade-in">
+        <div class="phone-frame">
+          <img src="images/scan-screen.png" alt="Eva scan screen — photograph nutrition facts or ingredients">
+          <p class="screenshot-label">Scan any food label</p>
+        </div>
+        <div class="phone-frame">
+          <img src="images/result-screen.png" alt="Eva results screen — health score, explanation, positives">
+          <p class="screenshot-label">Get instant results</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="section roadmap" id="roadmap">
+    <div class="container">
+      <h2 class="section-title fade-in">Coming Soon</h2>
+      <p class="section-subtitle fade-in">Eva is evolving. Here's what's next on the roadmap.</p>
+      <div class="roadmap-grid">
+        <div class="roadmap-card glass-card fade-in">
+          <div class="roadmap-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="14" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 36c0-7 5-12 12-12s12 5 12 12" stroke="currentColor" stroke-width="2"/>
+              <path d="M28 10h8M32 6v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Personalized Profiles</h3>
+          <p>Set dietary restrictions, allergies, and fitness goals — scores adapt to you.</p>
+        </div>
+        <div class="roadmap-card glass-card fade-in">
+          <div class="roadmap-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="14" width="10" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="15" y="8" width="10" height="26" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="26" y="18" width="10" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Category Comparison</h3>
+          <p>Compare similar products side by side to find the best option in any category.</p>
+        </div>
+        <div class="roadmap-card glass-card fade-in">
+          <div class="roadmap-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="4" width="28" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 12h16M12 18h12M12 24h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M26 28l4-4 6 2-2-6 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Shareable Cards</h3>
+          <p>Generate beautiful summary cards to share results with friends and family on social media.</p>
+        </div>
+        <div class="roadmap-card glass-card fade-in">
+          <div class="roadmap-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4l4 8h8l-6 5 2 9-8-5-8 5 2-9-6-5h8z" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="30" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 30h4M20 28v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Ultra-Processed Detection</h3>
+          <p>Automatically flag ultra-processed ingredients and understand their real impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="images/eva-logo.png" alt="Eva" class="footer-logo">
+          <p class="footer-tagline">Nature Intelligence</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#features">Features</a>
+          <a href="#roadmap">Roadmap</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <a href="mailto:guojunjie920404@gmail.com">guojunjie920404@gmail.com</a>
+          <a href="mailto:jiangmichelle77@gmail.com">jiangmichelle77@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Eva. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
